@@ -17,6 +17,7 @@
     <session id="-1701559690">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -269,7 +270,7 @@
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="9" />
     <option name="y" value="19" />
     <option name="width" value="1347" />
@@ -338,16 +339,15 @@
       <updated>1601728140614</updated>
       <workItem from="1601728141815" duration="4972000" />
       <workItem from="1601951166976" duration="886000" />
-      <workItem from="1602303643298" duration="466000" />
+      <workItem from="1602303643298" duration="1062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6324000" />
+    <option name="totallyTimeSpent" value="6920000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1390" height="747" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1390" height="747" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3385886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
