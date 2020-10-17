@@ -45,4 +45,30 @@ CHARACTER SET utf8 COLLATE utf8_general_ci;
  * Cấu hình tại file .env
  * + Chạy lệnh sau để chính thức tạo bảng trong MySQL,
  * php artisan migrate
+ *
+ * - Tìm hiểu về Route
+ * + Khai báo tại đường dẫn routes/web.php
+ * + Route giúp tạo ra các url thân thiện mà ko cần cần
+ * can thiệp vào file .htaccess như MVC thuần
+ * + Route trong Laravel có các phương thức sau: get, post,
+ * put, patch, delete -> chuẩn RESTFUL
+ *
+ * - Tạo controller/model/view theo chuẩn Laravel
+ * + Sử dụng artisan để tạo controller và model chuẩn Laravel
+ * + Controller tạo ra đc lưu tại app/Http/Controllers
+ * + Lệnh artisan tạo controller:
+ * php artisan make:controller TestController
+ * + Tạo controller nằm trong thư mục nào đó
+ * php artisan make:controller Backend/Test2Controller
+ * + Tạo controller kiểu resource
+ * php artisan make:controller ResourceController --resource
+ * + Tạo 2 controller chính cho CRUD: CategoryController,
+ * ProductController
+ * php artisan make:controller CategoryController
+ * php artisan make:controller ProductController
+ *
+ * - Tạo model trong Laravel
+ * + Sử dụng artisan để tạo model chuẩn Laravel
+ * php artisan make:model <tên-model>
  */
+
