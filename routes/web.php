@@ -72,11 +72,11 @@ Route::post('/category/store',
 Route::get('/category/{id}/edit',
     [CategoryController::class, 'edit']);
 // Route update dữ liệu, với update sử dụng route put/patch
-Route::put('/category/{id}/update',
+Route::post('/category/{id}/update',
     [CategoryController::class, 'update']);
 // + Xóa danh mục, sử dụng route Delete theo chuẩn RESTFUL
 //của Laravel
-Route::delete('/category/destroy/{id}',
+Route::get('/category/destroy/{id}',
     [CategoryController::class, 'destroy']);
 
 // Khai báo các route CRUD cho sản phẩm

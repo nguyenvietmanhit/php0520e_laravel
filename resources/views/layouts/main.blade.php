@@ -24,9 +24,24 @@
     @if($errors->any())
         @foreach($errors->all() AS $error)
             <div class="alert alert-danger">
+              <?php
+              //              echo htmlentities('abc');
+              ?>
                 {{ $error }}
             </div>
         @endforeach
+    @endif
+
+    @if(session()->has('success'))
+        <div class="alert alert-success">
+            {{ session()->get('success') }}
+        </div>
+    @endif
+
+    @if(session()->has('error'))
+        <div class="alert alert-danger">
+            {{ session()->get('error') }}
+        </div>
     @endif
 
     {{--Khai báo tham số động cho nội dung của từng view--}}
